@@ -1,0 +1,67 @@
+html,body{
+    /* untuk agar bisa full screen, agar navbar nya keliatan wide */
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+background-color: skyblue;
+}
+.navbar{
+background-color: black;
+height: 100%;
+width: 200px;
+position: fixed;
+}
+
+.container{
+color: white;
+background-color:rgb(117, 117, 117);
+margin-left: 200px;
+padding: 20px;
+}
+
+.navbar .judul{
+font-size: 40px;
+font-weight: lighter;
+color: white;
+text-align: center;
+padding-top: 20px;
+}
+.navbar a{
+text-decoration: none;
+color: white;
+padding: 8px;
+font-size: large;
+}
+.navbar a:hover{
+background-color: skyblue;
+color: black;
+}
+.navbar ul{
+text-align: center;
+}
+.navbar ul li{
+margin-top: 20px;
+margin-bottom: 10px;
+list-style-type: none;
+display: flex;
+justify-content: center;
+margin-right: 50px;
+}
+.container .gambar{
+text-align: center;
+}
+.content{
+padding: 20px;
+}
+.content h2{
+font-size: 25px;
+font-weight: bold;
+}
+.content p{
+font-size: 20px;
+}
